@@ -1,2 +1,2 @@
-# this is the git repo for standard stuff I use in C
-checkout the branch that you need at this moment future me
+# this is the branch for an implementation of getting an unknown number of chars from stdin until a terminating char
+note that this doesn't work the way gets does where you give a pointer to a function and the function keeps writing to that pointer for all the stdin it gets because that leads to all sorts of problems. Instead it'll return a pointer which has the full string in it(terminated with whatever byte the user wants) where the pointer will come from a user provided allocator(malloc provided by stdlib.h by default)
