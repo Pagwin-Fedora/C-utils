@@ -15,6 +15,10 @@ iterator iter(size_t dataTypeSize,size_t listLen,void* list){
 iterator iter_from_func(size_t dataTypeSize,void* (*func)(void)){
 	
 }
+#ifdef pagwinSpecialStringLib
+iterator iter_from_string(string str){
+	return iter(sizeof(char),str.len,str);
+}
 //returns a copy of the iterator
 iterator copy_iter(iterator vals){
 	iterator current;
@@ -34,4 +38,3 @@ void map(size_t (*func)(void*),iterator* vals){
 void mapKnow(size_t (*func)(void*,size_t)){
 	
 }
-
