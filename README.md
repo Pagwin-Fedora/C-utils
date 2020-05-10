@@ -1,2 +1,2 @@
-# this is the git repo for standard stuff I use in C
-checkout the branch that you need at this moment future me
+# This branch is for things related to iterators
+specifically it handles the creation of iterators and their manipulation
