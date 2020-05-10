@@ -9,3 +9,4 @@ typedef union passed_in_string_val{
 	string string_struct;
 	char* raw_string;
 } passed_in_string_val;
+#define pagwinSpecialStringLib 1
