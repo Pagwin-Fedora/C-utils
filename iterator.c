@@ -1,5 +1,4 @@
 #include<iterator.h>
-//returns an iterator generated from a list
 iterator iter(size_t dataTypeSize,size_t listLen,void* list){
 	iterator returnVal;
 	iterator* current = &returnVal;
