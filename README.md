@@ -1,2 +1,3 @@
-# this is the git repo for standard stuff I use in C
-checkout the branch that you need at this moment future me
+# This branch is the branch for smart pointer types
+such as unique\_ptr and shared\_ptr
+
