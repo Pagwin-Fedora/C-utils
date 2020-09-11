@@ -1,2 +1,2 @@
-# this is the git repo for standard stuff I use in C
-checkout the branch that you need at this moment future me
+# this is the branch for interchangable cryptography stuff
+this isn't for specific cryptographic hashes or encryption algorithms it's for the things that can be applied between them like HMACs
